@@ -45,5 +45,4 @@
     - TODO: fill the contents
 
 ## Reference
-1. [Somewhat Stateful Serverless Functions on Oracle Cloud Infrastructure – Implementing a DIY Cache](https://technology.amis.nl/2020/01/12/somewhat-stateful-serverless-functions-on-oracle-cloud-infrastructure-implementing-a-diy-cache/)
-TODO: fill the contents
+1. Somewhat Stateful Serverless Functions on Oracle Cloud Infrastructure – Implementing a DIY Cache: [link](https://technology.amis.nl/2020/01/12/somewhat-stateful-serverless-functions-on-oracle-cloud-infrastructure-implementing-a-diy-cache/)
