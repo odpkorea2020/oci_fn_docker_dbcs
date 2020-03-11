@@ -1,21 +1,21 @@
-# OCI serverless function - docker deploy, and using DBCS
+# OCI serverless function - docker로 배포, DBCS 사용
 
-**한국어 버전**: [link](https://github.com/joungminko/oci_fn_docker_dbcs/blob/master/README-kor.md)
+**English version**: [link](https://github.com/joungminko/oci_fn_docker_dbcs/blob/master/README.md)
 
-0. Prerequisite
-  - OCI CLI install, and configuration
-  - Docker environment install
-  - Fnproject Function install
-  - OCI context configuration
-  - create table: 
+0. 전제사항
+  - OCI CLI 설치와 설정
+  - Docker 환경 설치
+  - Fnproject Function 설치
+  - OCI context 설정
+  - 디비 테이블 생성: 
     - TODO: fill the contents
-  - add data
+  - 데이터 추가
     - TODO: fill the contents
 
-1. purpose
-  - write this code to access DBCS to get table data
-  - with API-Gateway, it can be used as REST service server, which is serverless
-  - it's an example of taking advantage of using docker, like installing oracle instant client
+1. 목적
+  - DBCS의 테이블 데이터를 접근하도록 소스 작성
+  - API-Gateway를 이용해 REST 서비스 서버로 사용하려고 함, 서버리스로
+  - Docker 를 사용하는 장점을 활용해 oracle instant client 을 컨테이너 내에 설치
 
 2. how to work
   - build
