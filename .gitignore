@@ -1,0 +1,5 @@
+/node_modules
+# .env
+ctxFunc.js
+dbFunc.js
+run.js

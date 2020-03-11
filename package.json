@@ -1,0 +1,14 @@
+{
+	"name": "docker-fn-base",
+	"version": "1.0.0",
+	"description": "Function using external linux libraries",
+	"main": "func.js",
+	"author": "fnproject.io",
+	"license": "Apache-2.0",
+	"dependencies": {
+		"@fnproject/fdk": ">=0.0.15",
+		"dotenv": "^8.2.0",
+		"oracledb": "^4.2.0",
+		"rxjs": "^6.5.4"
+	}
+}
