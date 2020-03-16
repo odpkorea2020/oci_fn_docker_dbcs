@@ -1,7 +1,7 @@
 const oracledb = require('oracledb');
 const dbConfig = require('./dbconfig');
 const { Observable } = require('rxjs');
-const ctxFunc = require('./ctxFunc');
+// const ctxFunc = require('./ctxFunc');
 
 
 function run(input, ctx) {
