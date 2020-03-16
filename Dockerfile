@@ -9,6 +9,6 @@ RUN yum -y install oracle-release-el7 oracle-nodejs-release-el7 && \
     useradd --uid 1000 --system --gid fn fn
 
 WORKDIR /function
-ADD dbconfig.js ctxFunc.js dbFunc.js dbFuncRxjs.js package.json package-lock.json func.js func.yaml /function/
+ADD dbconfig.js dbFuncRxjs.js package.json package-lock.json func.js func.yaml /function/
 RUN npm install
 ENTRYPOINT ["node", "func.js"]

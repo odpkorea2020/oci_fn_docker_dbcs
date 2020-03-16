@@ -1,6 +1,6 @@
 schema_version: 20180708
 name: docker-fn-base
-version: 0.0.116
+version: 0.0.119
 runtime: docker
 memory: 256
 timeout: 120
