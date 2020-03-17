@@ -17,8 +17,8 @@
   - API-Gateway를 이용해 REST 서비스 서버로 사용하려고 함, 서버리스로
   - Docker 를 사용하는 장점을 활용해 oracle instant client 을 컨테이너 내에 설치
 
-2. how to work
-  - build
+2. 사용방법
+  - 빌드
     - in the func.yaml, the runtime is docker, so it will be built by using Dockerfile
     - in the Dockerfile, Docker is based on oraclelinux:7-slim OS. When it is built, it will trigger the YUM package installer to install several libraries, and copy the serverless function source. In addition, it will run node.js package installer. Finally, it configures to set the entry point to run when it gets triggered.
   - run
